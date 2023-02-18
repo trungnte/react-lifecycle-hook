@@ -35,10 +35,25 @@ export default function Header() {
                 <NavLink className="dropdown-item" to="/use-ref">useRef</NavLink>
                 <NavLink className="dropdown-item" to="/tang-giam-fs">Tăng giảm font-size</NavLink>
                 <NavLink className="dropdown-item" to="/facebook-app">Facebook App</NavLink>
-                <NavLink className="dropdown-item" to="/shoes-shop-api">ShoesShopAPI</NavLink>
+                {/* <NavLink className="dropdown-item" to="/shoes-shop-api">ShoesShopAPI</NavLink>
+
+                <NavLink className="dropdown-item" to="/shoes-shop-await">ShoesShopAwait</NavLink> */}
                 
               </div>
             </li>
+
+
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                API
+              </a>
+              <div className="dropdown-menu">
+                <NavLink className="dropdown-item" to="/shoes-shop-api">ShoesShopAPI</NavLink>
+                <NavLink className="dropdown-item" to="/shoes-shop-await">ShoesShopAwait</NavLink>
+                
+              </div>
+            </li>
+
 
           </ul>
           <form className="form-inline my-2 my-lg-0">

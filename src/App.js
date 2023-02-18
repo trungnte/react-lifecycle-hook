@@ -16,6 +16,7 @@ import DemoUseRef from './pages/Hook/DemoUseRef/DemoUseRef';
 import TangGiamFS from './pages/Hook/ReduxHook/TangGiamFS';
 import FacebookApp from './pages/Hook/ReduxHook/FacebookApp';
 import ShoesShopAPI from './pages/API/ShoesShopAPI';
+import ShoesShopAwait from './pages/API/ShoesShopAwait';
 
 
 
@@ -43,6 +44,8 @@ function App() {
         <Route exact path="/facebook-app" component={FacebookApp} />
 
         <Route exact path="/shoes-shop-api" component={ShoesShopAPI} />
+
+        <Route exact path="/shoes-shop-await" component={ShoesShopAwait} />
 
         {/* default route cuoi cung */}
         {/* <Route exact path="/" component={Home} /> */}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import { render } from '@testing-library/react';
+
 /**
  * B1: Tạo UI UII(button call api, rowrr-col hiển thị sản phẩm)
  * B2: Tạo function call API (console log)

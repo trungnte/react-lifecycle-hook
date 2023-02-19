@@ -1,0 +1,1 @@
+export const GET_SHOES_LIST = "GET_SHOES_LIST";

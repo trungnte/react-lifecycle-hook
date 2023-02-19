@@ -50,6 +50,8 @@ export default function Header() {
               <div className="dropdown-menu">
                 <NavLink className="dropdown-item" to="/shoes-shop-api">ShoesShopAPI</NavLink>
                 <NavLink className="dropdown-item" to="/shoes-shop-await">ShoesShopAwait</NavLink>
+                <NavLink className="dropdown-item" to="/shoes-shop-middleware">ShoesShopMiddleWare</NavLink>
+                
                 
               </div>
             </li>
